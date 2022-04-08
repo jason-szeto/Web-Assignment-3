@@ -1,0 +1,226 @@
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #131212;
+}
+h2 {
+    margin-left:2%;
+}
+body {
+    margin: 0;
+    background-color: #0c0c0c;
+	font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+ul {
+    background-color: #0f0f0f;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+li {
+    color: white;
+    display: inline;
+
+}
+a:hover {
+    cursor: pointer;
+    background-color: #363434;
+}
+a {           
+    z-index: 1;     
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;   
+ }
+ #about{
+     color: white;
+     background-color: #14141431;
+     font-size: 2em;
+     padding-top:1px;
+     padding-bottom: 50px;
+ }
+ #farmPicture{
+     height:350px;
+     width:500px;
+     margin-left:35%;
+ }
+#portfolio{
+    display: grid;
+    height:100%;
+    margin-top: 2%;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.smallDeviceMenu {
+    display:none;
+}
+#menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+#menu:hover {
+    cursor: pointer;
+}
+#portfolio1 {
+    background-color: #3b3536;
+    color: white;
+    padding-bottom:20px;
+}
+#Compsci {
+    height: 240px;
+    width: 220px;
+    margin-left: 2%;
+    float: left;
+    transition: transform 3s;
+}
+
+#Compsci:hover {
+    transform: scale(2);
+}
+
+#CompsciText {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    margin-right: 2%;
+    color: white;
+}
+
+#portfolio2 {
+    background-color: #3b3536;
+    color: white;
+    padding-bottom:20px;
+}
+
+#mePic {
+    height: 200px;
+    width: 200px;
+    margin-right:2%;
+    float: left;
+    transition: transform 3s;
+}
+
+#mePic:hover{
+    transform: scale(2);
+}
+
+#meText {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    margin-right: 2%;
+    color: white;
+}
+
+#portfolio3 {
+    background-color: #3b3536;
+    color: white;
+    padding-bottom:20px;
+}
+
+#hikingPic {
+    height: 190px;
+    width: 200px;
+    margin-left: 2%;
+    float: left;
+    transition: transform 3s;
+}
+
+#hikingPic:hover{
+    transform: scale(2);
+}
+
+#hikingText {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    margin-right: 2%;
+    color: white;
+}
+#portfolio4 {
+    background-color: #3b3536;
+    color: white;
+    padding-bottom:20px;
+}
+#ProjectPicture {
+    height: 200px;
+    width: 200px;
+    margin-right: 2%;
+    float: left;
+    transition: transform 3s;
+}
+
+#ProjectPicture:hover{
+    transform: scale(2);
+}
+#ProjectText {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    margin-right: 2%;   
+    color: white;
+}
+#contactForm {
+    color: white;
+    margin-left: 39%;
+}
+#textboxid
+{
+    height:200px;
+	width:400px;
+    font-size:14pt;
+	padding-bottom: 0px;
+	line-height:100px;
+}
+
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #3b3536;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:1000px) {
+    .sticky{
+        display: none;
+    }
+    .smallDeviceMenu {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #portfolio{
+        display: grid;
+        height:100%;
+        margin-top: 2%;
+        padding-left: 100px;
+        padding-right: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 50px;
+    }
+  
+    #contactForm {
+        color: white;
+        margin-left: 30%;
+    }
+}

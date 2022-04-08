@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="styles/portfolio.css">
+	    <meta charset="UTF-8">
+		<title>About Me</title>
+	</head>
+	<body>
+        <div class="smallDeviceMenu">
+            <div id="menu"></div>
+            <div id="menu"></div>
+            <div id="menu"></div>
+        </div>
+		<h1 id="top">Jason Szeto</h1>
+        <nav class="sticky">
+            <ul>
+                <li><a href="portfolio.html" style="text-decoration: none; color: white">Home</a></li>
+                <li><a href="https://www.heardle.app/" style="text-decoration: none; color: white">An interest of Mine</a></li>
+                <li><a href="#top" style="text-decoration: none; color: white">Back to top</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <p style="margin-left:10%; margin-right:10%; text-align: center;">This is a portfolio about me and what I do and what I enjoy! 
+                I hope what I enjoy interests you while you learn more about me and if you have anything else to ask you can email me below!</p>
+            
+        </section>
+        <section id="portfolio">
+            <div id="portfolio1">
+                <h2>About My Degree</h2>
+                <img src="images/Compsci.png" id="Compsci" alt="Compsci" style="padding-right: 20px;">
+                <p id="CompsciText">
+                    I am Currently in my 4th year of study and my main degree is computer science! I had an interest in computers at an early age and built my first computer 
+                    in high school. I had a basic idea of what coding was and what the languages were with python and C++ being the more prominent ones. So far, through this degree I am
+                    thoroughly enjoying this degree. I have taken courses such as: programming paradigms, algorithms and complexity, games development and data structures. I learn a new 
+                    coding language after every one of these classes and have learned that math and coding are very similar to each other that it can be scary sometimes!
+                </p>
+               
+            </div>
+            <div id="portfolio2">
+                <h2>About Me</h2>
+                <img src="images/me.jpg" id="mePic" alt="Me" style="padding-left: 20px;">
+                <p id="meText">
+                    I was born in Calgary, Alberta and am of Chinese descent. I have lived in Calgary my entire life and grew up with mostly music and video games. I volunteered
+                    during the summer and took language classes during the weekend throughout k-12 being quite fluent in cantonese. 
+                </p>
+             
+            </div>
+            <div id="portfolio3">
+                <h2>A hobby of Mine</h2>
+                <img src="images/Hiking.jpg" id="hikingPic" alt="Hiking" style="padding-right: 20px;">
+                <p id="hikingText">
+                    One hobby of mine is that I enjoy hiking a lot. This picture was taken when hiking through powderface ridge trail that I was taking with 
+                    my friends. It is a nice way to build cardio and to just get out of the house once in awhile to stay active and be able to interact with others.
+                </p>
+               
+            </div>
+            <div id="portfolio4">
+                <h2>A project I've done</h2>
+                <img src="images/Project.png" id="ProjectPicture" alt="Project" style="padding-left: 20px;">
+                <p id="ProjectText">
+                    I joined a hackathon sponsored by MRU called hackTogether. I joined a group of friends and coded a website that takes COVID-19 data from various canadian 
+                    universities and aggregates it to the website so that university students don't need to sort through the clutter of traversing through the university website
+                    to find the relevant COVID-19 info like the infected statistics. 
+                </p>
+                
+            </div>
+        </section>
+        <section id="contactForm">
+            <p>Please do not hesitate to contact me if you have any questions!</p> 
+		    <form method = "get" action=”tpulf154@mtroyal.ca”>
+			    <p>
+				    <label> Name: <span class="required">*</span>
+					    <input name="name" type="text" placeholder="Name here..." style="margin-left: 100px"/>
+				    </label>
+				    <br>
+				    <br>
+				    <label>Phone: 
+					    <input name="phone" type="tel" placeholder="123-123-1234" style="margin-left: 108px"/>
+				    </label>
+				    <br>
+				    <br>
+				    <label>Email: <span class="required">*</span>
+					    <input name="email" type="email" placeholder="email@somthing.somthing" style="margin-left: 100px"/>
+				    </label>
+				    <br>
+				    <br>
+				    <label>Date:
+					    <input name="from" type="date" style="margin-left: 120px"/>			
+				    </label>
+				    <br>
+				    <br>
+				   
+			    </p>
+			    <p>
+				    <label>
+					    <input id="textboxid" name="message" type="text" placeholder="What would you like to say?"/>
+				    </label>
+			    </p>
+			    <input type = "submit" value= "Send" style="margin-left:25px">
+			    <input type = "reset" value= "Clear" style="margin-left:50px">
+		    </form>
+        </section>
+        <br>
+        <br>
+        <footer>
+            <p>Thank you for reading my portfolio!</p>
+        </footer>
+	</body>
+</html>
